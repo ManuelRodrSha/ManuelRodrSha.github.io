@@ -29,20 +29,22 @@ body {
   left: 5%;
 } */
 
-table, td, th {
+table,
+td,
+th {
   margin: 0 auto;
-  border:1px solid black;
+  border: 1px solid black;
 }
-td{
+td {
   padding: 5px;
 }
 
-#output{
+#output {
   position: absolute;
   top: 10%;
-  margin:1rem;
+  margin: 1rem;
   padding: 2rem;
-  padding:4px;
+  padding: 4px;
   background-color: #333;
   color: aliceblue;
   padding: 1rem;
@@ -51,17 +53,17 @@ td{
   overflow: auto;
 }
 
-#output p{
-  margin-bottom: .5rem;
+#output p {
+  margin-bottom: 0.5rem;
 }
 
-#todo{
+#todo {
   position: absolute;
   top: 10%;
   right: 2%;
-  margin:1rem;
+  margin: 1rem;
   padding: 2rem;
-  padding:4px;
+  padding: 4px;
   background-color: #333;
   color: aliceblue;
   width: 350px;
@@ -74,12 +76,12 @@ td{
   top: 1rem;
 }
 
-#archivosCargados{
+#archivosCargados {
   position: absolute;
   top: 70%;
-  margin:1rem;
+  margin: 1rem;
   padding: 2rem;
-  padding:4px;
+  padding: 4px;
   background-color: #333;
   color: aliceblue;
   width: 250px;
@@ -87,12 +89,12 @@ td{
   overflow: auto;
 }
 
-#filtro{  
+#filtro {
   position: absolute;
   top: 2%;
   right: 1rem;
 }
-#prueba{
+#prueba {
   display: none;
   overflow: auto;
   background-color: #333;
@@ -103,7 +105,14 @@ td{
   left: 30%;
   color: antiquewhite;
 }
-/* #table{
-
-  
-} */
+#logo {
+  position: absolute;
+  margin: 0 auto;
+}
+#logo img {
+  width: 40%;
+  margin-top: .5rem;
+}
+#text-container{
+  display: none;
+}
