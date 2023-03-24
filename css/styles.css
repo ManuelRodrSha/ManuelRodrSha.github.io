@@ -107,11 +107,12 @@ td {
 }
 #logo {
   position: absolute;
-  margin: 0 auto;
+   margin: 1rem;
+  
 }
 #logo img {
   width: 40%;
-  margin: 1rem;
+
 }
 #text-container{
   display: none;
