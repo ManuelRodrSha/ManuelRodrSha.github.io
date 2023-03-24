@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+#three-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+#file-input {
+  z-index: 1;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+/* #button{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+} */
+
+table, td, th {
+  margin: 0 auto;
+  border:1px solid black;
+}
+td{
+  padding: 5px;
+}
+
+#output{
+  position: absolute;
+  top: 10%;
+  margin:1rem;
+  padding: 2rem;
+  padding:4px;
+  background-color: #333;
+  color: aliceblue;
+  padding: 1rem;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+}
+
+#output p{
+  margin-bottom: .5rem;
+}
+
+#todo{
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  margin:1rem;
+  padding: 2rem;
+  padding:4px;
+  background-color: #333;
+  color: aliceblue;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
+}
+.checkboxes {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+#archivosCargados{
+  position: absolute;
+  top: 70%;
+  margin:1rem;
+  padding: 2rem;
+  padding:4px;
+  background-color: #333;
+  color: aliceblue;
+  width: 250px;
+  height: 100px;
+  overflow: auto;
+}
+
+#filtro{  
+  position: absolute;
+  top: 2%;
+  right: 1rem;
+}
+#prueba{
+  display: none;
+  overflow: auto;
+  background-color: #333;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 10%;
+  left: 30%;
+  color: antiquewhite;
+}
+/* #table{
+
+  
+} */
