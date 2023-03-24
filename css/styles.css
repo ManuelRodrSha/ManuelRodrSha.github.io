@@ -111,7 +111,7 @@ td {
 }
 #logo img {
   width: 40%;
-  margin-top: .5rem;
+  margin: 1rem;
 }
 #text-container{
   display: none;
